@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+    <title>Отделочные работы</title>
+    <meta name="description" content="Ремонт квартир и домов в Харькове под ключ и в срок">
+    <link rel="canonical" href="//rapeir-text.zzz.com.ua">
+    <link rel="shortcut icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="call">
+        <a href="tel:+380976610446">+38(097) 661 04 46</a>
+    </div>
+    <nav class="nav">
+        <div class="inner df-sb">
+            <a href="index.html" class="logo">Ремонт в Харькове</a>
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="disassembly.html">Демонтаж</a></li>
+                <li><a href="plumbing.html">Сантехнические работы</a></li>
+                <li><a href="electric.html">Ремонт электрики</a></li>
+                <li><a href="#" class="active">Отделочные работы</a></li>
+                <li><a href="price.html">Прайсы</a></li>
+                <li><a href="#">Наши работы</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <button class="hamburger-menu"><span>menu</span></button>
+        </div>
+    </nav>
+</header>
+
+<main class="decoration">
+    <div class="inner">
+        <h1>Отделочные работы в Харькове и области</h1>
+        <p class="desc">Это самый приятный этап ремонта, вся пыль уже давно позади, сантехника и электрика проведены, а значит пора доставать выравнивающие смеси для пола, шпаклевать и грунтовать стены, а после завершать картину обоями, ламинатом и другими видами покрытий. Этот процесс, приводит пустое помещение в уютную квартиру вашей мечты.</p>
+    </div>
+</main>
+<section class="section">
+    <div class="inner">
+        <h2>Некоторые из видов отделочных работ, вы можете увидеть в нашем видео:</h2>
+        <div class="video-wrap">
+            <div class="video-16x9"></div>
+            <iframe class="video" src="https://www.youtube.com/embed/GxIZVPYCr6g" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>Все права защищены. 2017</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>(function() {
+    'use strict';
+    $('.hamburger-menu').click(function (e) {
+        e.preventDefault();
+        if ($(this).hasClass('active')){
+            $(this).removeClass('active');
+            $('.menu').fadeToggle( 'fast', 'linear' );
+        } else {
+            $(this).addClass('active');
+            $('.menu').fadeToggle( 'fast', 'linear' );
+        }
+    })
+})();
+</script>
+</body>
+</html>
