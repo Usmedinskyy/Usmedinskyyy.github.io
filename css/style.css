@@ -259,6 +259,30 @@ ul.menu a.active, ul.menu a:hover{
     background-size: cover;
 }
 
+
+/* tab */
+
+ul.tabs li{
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+ul.tabs li.current{
+    background: #ededed;
+    color: #222;
+}
+
+.tab-content{
+    display: none;
+    padding: 15px;
+}
+
+.tab-content.current{
+    display: inherit;
+}
     /*info*/
 
 
