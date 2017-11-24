@@ -8,6 +8,7 @@
     <link rel="canonical" href="//rapeir-text.zzz.com.ua">
     <link rel="shortcut icon" href="image/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 <header class="header">
@@ -34,14 +35,36 @@
 
 <main class="price">
     <div class="inner">
-        <h1>Ремонт электрики в Харькове и области</h1>
-        <p class="desc">На этом этапе, чаще всего, мы делаем новую систему проводки, связано это с несколькими факторами:</p>
-        <ol class="desc">
-            <li>Безопасность. В 2017 году производят очень качественные и недорогие кабеля, используя которые мы можем
-                обезопасить клиентов от любого типа замыканий.
-            </li>
-            <li>Сам ремонт предполагает изменения, обычная практика, когда включатели/выключатели, розетки, люстры, бра устанавливаются в более удобных местах, и поэтому схема электрики изменяется.</li>
-        </ol>
+        <h1>Актуальные цены на ремонт квартир в Харькове 2017</h1>
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="tab-1">Полный прайс</li>
+            <li class="tab-link" data-tab="tab-2">Демонтаж</li>
+            <li class="tab-link" data-tab="tab-3">Сантехнические работы</li>
+            <li class="tab-link" data-tab="tab-4">Ремонт электрики</li>
+            <li class="tab-link" data-tab="tab-5">Отделочные работы</li>
+        </ul>
+
+        <div id="tab-1" class="tab-content current">
+            <a download="#">Скачать полный прайс</a>
+            <object type='application/pdf' data="image/pdf/price.pdf" width="90%" height="650px"></object>
+        </div>
+        <div id="tab-2" class="tab-content">
+            <a download="#">Скачать прайс на демонтаж</a>
+            <object type='application/pdf' data="image/pdf/demontajnye_raboty.pdf" width="90%" height="650px"></object>
+        </div>
+        <div id="tab-3" class="tab-content">
+            <a download="#">Скачать прайс на сантехнические работы</a>
+            <object data="image/pdf/santehnicheskie_raboty.pdf" type="application/pdf" width="90%" height="650px"></object>
+        </div>
+        <div id="tab-4" class="tab-content">
+            <a download="#">Скачать прайс на ремонт электрики</a>
+            <object type='application/pdf' data="image/pdf/electrika.pdf" width="90%" height="650px"></object>
+        </div>
+        <div id="tab-5" class="tab-content">
+            <a download="#">Скачать прайс на ремонт электрики</a>
+            <object type='application/pdf' data="image/pdf/otdelochnye_raboty.pdf" width="90%" height="650px"></object>
+        </div>
+
     </div>
 </main>
 
@@ -65,5 +88,21 @@
     })
 })();
 </script>
+<script>
+    $(document).ready(function(){
+
+        $('ul.tabs li').click(function(){
+            var tab_id = $(this).attr('data-tab');
+
+            $('ul.tabs li').removeClass('current');
+            $('.tab-content').removeClass('current');
+
+            $(this).addClass('current');
+            $("#"+tab_id).addClass('current');
+        })
+
+    })
+</script>
+
 </body>
 </html>
