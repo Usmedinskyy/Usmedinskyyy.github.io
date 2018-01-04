@@ -2,11 +2,11 @@
  "name": "Designer Dvornichenko",
  "short_name": "Designer",
  "start_url": ".",
-  "display": "standalone",
-  "background_color": "#fff",
-  "theme_color": "#fff"
-  "description": "Dmitriy Dvornichenko Product Designer based in Kharkiv, Ukraine",
-  "icons": [
+ "display": "standalone",
+ "background_color": "#fff",
+ "theme_color": "#fff"
+ "description": "Dmitriy Dvornichenko Product Designer based in Kharkiv, Ukraine",
+ "icons": [
   {
    "src": "\/android-icon-36x36.png",
    "sizes": "36x36",
