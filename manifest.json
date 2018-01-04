@@ -1,11 +1,12 @@
 {
  "name": "Designer Dvornichenko",
  "short_name": "Designer",
+ "start_url": "/index.html",
  "display": "standalone",
  "background_color": "#fff",
  "theme_color": "#fff",
  "orientation": "landscape",
- "start_url": "./?utm_source=web_app_manifest",
+ "scope": "/myapp",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
