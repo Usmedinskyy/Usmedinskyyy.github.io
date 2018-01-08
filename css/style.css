@@ -29,16 +29,6 @@ img {
 a:link {
   -webkit-tap-highlight-color: #478FB2; }
 
-::-moz-selection {
-  background: #478FB2;
-  color: #fff;
-  text-shadow: none; }
-
-::selection {
-  background: #478FB2;
-  color: #fff;
-  text-shadow: none; }
-
 @font-face {
   font-family: 'TT Norms';
   src: url("../font/ttnorms-bold-webfont.woff2") format("woff2"), url("../font/ttnorms-bold-webfont.woff") format("woff");
@@ -55,19 +45,6 @@ html {
   @media screen and (max-width: 1215px) {
     html {
       font-size: 14px; } }
-  @media screen and (max-width: 1024px) {
-    html {
-      font-size: 14px; } }
-  @media screen and (max-width: 1024px) {
-    html {
-      font-size: 14px; } }
-  @media screen and (max-width: 1024px) {
-    html {
-      font-size: 14px; } }
-  @media screen and (max-width: 1024px) {
-    html {
-      font-size: 14px; } }
-
 body {
   font-family: "TT Norms", sans-serif;
   height: 100%;
@@ -152,17 +129,7 @@ main {
   font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: 2.4px;
-  position: relative;
-  /*&:before{
-      content: '';
-      position: absolute;
-      display: inline-block;
-      width: 290px;
-      height: 1px;
-      background: $bg-alt;
-      opacity: 0.5;
-      top: -14px;
-  }*/ }
+  position: relative; }
   @media screen and (max-width: 767px) {
     .btn-more {
       font-size: 14px;
