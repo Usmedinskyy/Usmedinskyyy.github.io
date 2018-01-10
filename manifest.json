@@ -1,12 +1,13 @@
 {
- "name": "Designer Dvornichenko",
+ "name": "Dvornichenko",
  "short_name": "Designer",
  "start_url": "/index.html",
  "display": "standalone",
- "background_color": "#fff",
- "theme_color": "#fff",
+ "background_color": "#ffffff",
+ "theme_color": "#ffffff",
  "orientation": "landscape",
  "scope": "/myapp",
+ "start_url": "./?utm_source=web_app_manifest",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
@@ -49,7 +50,7 @@
    "sizes": "512x512",
    "type": "image\/png",
    "density": "5.0"
-  }
+  },
   {
 	"src": "/android-chrome-192x192.png",
 	"sizes": "192x192",
