@@ -1,11 +1,6 @@
 {
  "name": "Dvornichenko",
  "short_name": "Designer",
- "start_url": "/index.html",
- "display": "standalone",
- "background_color": "#ffffff",
- "theme_color": "#ffffff",
- "orientation": "landscape",
  "scope": "/myapp",
  "start_url": "./?utm_source=web_app_manifest",
  "icons": [
@@ -61,5 +56,9 @@
 	"sizes": "512x512",
 	"type": "image/png"
 	}
- ]
+ ],
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff", 
+  "display": "standalone",  
+  "orientation": "landscape" 
 }
